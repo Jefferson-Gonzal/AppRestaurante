@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="360dp"
+
+    android:layout_height="120dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="1dp"
+    android:backgroundTint="@color/white">
+
+    <TextView
+        android:id="@+id/text_nombre"
+        android:layout_width="239dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Jhostyn Alcantar Benites"
+        android:textColor="#3C3B3B"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/text_numero_mea"
+        android:layout_width="111dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="41dp"
+        android:text="NÂ° 01"
+        android:textColor="#454444"
+        android:textSize="18sp" />
+    <ImageView
+        android:layout_width="37dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/meshas" />
+
+    <Button
+        android:id="@+id/text_estado_C"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="estado"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="15dp"
+        android:padding="4dp"
+        android:textColor="@color/white"
+        android:backgroundTint="#3F51B5"
+        app:cornerRadius="5dp"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/baseline_arrow_forward_ios_24" />
+
+</androidx.cardview.widget.CardView>

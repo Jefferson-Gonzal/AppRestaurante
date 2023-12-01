@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:backgroundTint="#00201F1F"
+        android:drawableTop="@drawable/baseline_arrow_back_ios_24"
+        android:drawableTint="#3F51B5"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+
+
+    <TextView
+        android:id="@+id/texBar"
+        android:layout_width="141dp"
+        android:layout_height="155dp"
+        android:gravity="center"
+        android:text="Agregar Plato"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:background="#3F51B5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.851"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <EditText
+        android:id="@+id/editTextPrecio"
+        android:layout_width="280dp"
+        android:layout_height="61dp"
+        android:layout_marginBottom="148dp"
+        android:background="@drawable/borde_personalizado"
+        android:hint="Precio"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:cornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Spinner
+        android:id="@+id/editTextCategory"
+        android:layout_width="280dp"
+        android:layout_height="61dp"
+        android:background="@drawable/borde_personalizado"
+        android:textAlignment="textStart"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.647" />
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="280dp"
+        android:layout_height="61dp"
+        android:background="@drawable/borde_personalizado"
+        android:hint="Nombre del producto"
+        android:padding="10dp"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.307" />
+
+    <ImageButton
+        android:id="@+id/editTextInsertarImagen"
+        android:layout_width="280dp"
+        android:layout_height="61dp"
+        android:background="@drawable/borde_personalizado"
+        android:hint="Insertar imagen"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:cornerRadius="10dp"
+        android:drawableRight="@drawable/baseline_add_photo_alternate_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.534" />
+
+    <EditText
+        android:id="@+id/editTextDescription"
+        android:layout_width="280dp"
+        android:layout_height="61dp"
+        android:background="@drawable/borde_personalizado"
+        android:hint="Descripcion"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:cornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.416" />
+
+    <ImageButton
+        android:id="@+id/btnguardarplato"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="bottom|end"
+        android:background="@drawable/add"
+        android:backgroundTint="#64A31B"
+        android:elevation="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.95"
+        app:srcCompat="@drawable/baseline_save_24" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

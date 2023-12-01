@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "637177489605",
+    "project_id": "cibertec-restaurante",
+    "storage_bucket": "cibertec-restaurante.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:637177489605:android:9c49a13bafc32bc4b468ac",
+        "android_client_info": {
+          "package_name": "com.cibertec.apprestaurante"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPNHavLQTZqeSWUT57p9mCF9LtdJcSwl8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:637177489605:android:061a9fb7ba9565edb468ac",
+        "android_client_info": {
+          "package_name": "com.cibertec.resprueba"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPNHavLQTZqeSWUT57p9mCF9LtdJcSwl8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
