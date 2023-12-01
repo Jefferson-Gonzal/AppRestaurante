@@ -27,7 +27,7 @@
             android:id="@+id/edt_Cantidad"
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:hint="cantidad"
+            android:hint="Cantidad"
             android:maxLines="1"
             android:inputType="number"
             android:layout_marginTop="16dp"
@@ -46,16 +46,13 @@
             android:layout_marginRight="4dp"
             android:layout_marginBottom="4dp" />
 
-
-
-
         <Button
             android:id="@+id/btn_Agregar"
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:text="Agregar"
             android:textColor="@color/white"
-            app:backgroundTint="@color/md_theme_light_secondary"/>
+            app:backgroundTint="@color/skyblue"/>
 
     </LinearLayout>
 
